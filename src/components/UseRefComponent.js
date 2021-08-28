@@ -18,7 +18,7 @@ useEffect(() => {
   // console.log(document.querySelector('input'))
   // document.querySelector('input').focus()
   // console.log(inputRef.current)
-  inputRef.current.focus()
+  inputRef.current.parentNode.style.backgroundColor = 'red';
 }, [])
 
 const changeBGColor = () => {
